@@ -1,0 +1,534 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.s{
+    position: absolute;
+}
+.box{
+    background-color: #4D8E97;
+  
+
+}
+.le{
+    text-decoration: none;
+    color: white;
+    background-color: #1B2130;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+}
+.le:focus{
+    background-color: #4f608a;
+}
+.li{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin-left: 25px;
+}
+.box__a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    font-size: 20PX;
+    height: 160px;
+    padding-left: 0;
+    
+}
+.box_a{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+   
+    align-items: center;
+
+}
+.styl{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box_a_a{
+    color: white;
+    font-size: 45px;
+    background-color: #161c36;
+   height: 110px;
+   width: 210px;
+   border-radius: 10px;
+   font-weight: bold;
+   box-shadow:0 7px aqua;
+}
+.box_a_a:hover{
+    box-shadow:0 4px aqua;
+    transform: translateY(3px);
+}
+
+.box_a_a:focus{
+    box-shadow:0 0 aqua;
+    transform: translateY(7px);
+}
+.box_b{
+    background-color: white;
+}
+.box_b_a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #4D8E97;
+}
+.box_b_img{
+    width: 49%;
+}
+.im{
+    width: 305px;
+    margin: 0;
+    padding: 0;
+}
+.box_b_text{
+    width: 49%;
+    font-size: 39px;
+    color: #1B2130;
+    
+    
+}
+.a{
+    color: black;
+}
+.ass{
+    height: 70vh;
+}
+.bax{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fond{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.baxs{
+    padding: 10px;
+    width: 25%;
+    text-align: center;  
+}
+.re{
+    background-image: url(images/frame.png);
+
+}
+.stel{
+    padding: 5px;
+}
+.bor{
+    margin-top: 20px;
+    border: 3px solid #4D8E97;
+    width: 48%;
+    padding: 10px;
+}
+.borbos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.bor_a{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.box_a{
+    justify-content: center;
+}
+.bor_text{
+    font-size: 19px;
+}
+.bor_title{
+    padding: 8px;
+}
+.bor_b{
+ 
+    margin-top: 20px;
+    padding: 10px;
+   margin-bottom: 10px;
+    color: white;
+    height: 150px;
+    background-color: #2b7983;
+    border: 5px solid #4D8E97;
+}
+.bor_b_c{
+    width: 48%;
+}
+.bor_c{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2b7983;
+    border: 5px solid #4D8E97;
+    color: white;
+}
+.ox{
+    word-spacing: 15px;
+    
+}
+.stelno{
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+.h3{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.end{
+    margin-bottom: 25px;
+}
+.boxes{
+    width: 58%;
+}
+.boxes1{
+    width: 37%;
+    border: 4px solid #5FB3BD;
+    padding: 10px;
+    margin: 10px;
+}
+.box_d{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.le1{
+    background-color: #335F64;
+    color: rgb(169, 255, 169);
+    transition: 0.2s;
+    padding: 10px;
+}
+.le:hover{
+    background-color: #188594;
+    
+}
+.v{
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sad{
+    margin-top: 25px;
+}
+.vv{
+    height: 100vh;
+}
+.img12{
+    margin-left: 150px;
+}
+.img1{
+    margin-left: 20px;
+}
+
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.imag{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    scale: 1;
+}
+.show{
+    text-align: center;
+    padding: 20px;
+}
+.show_more{
+    color: black;
+    
+}
+.imo{
+    position: relative;
+    
+}
+.imo::after{
+    content: url(images/frame.png);
+    position: absolute;
+    left: 0;
+    opacity: 0.4;
+    top: 4.5px;
+    left: -4.5px;
+       
+}
+@media(max-width: 1350px){
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+    .v{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width: 1220px){
+    .le{
+        font-size: 15px;
+    }
+    .box_a_a{
+        font-size: 35px;
+        height: 90px;
+        width: 160px;
+        text-align: center;
+    }
+    .bor_a{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media(max-width: 1150px){
+
+    .image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imo{
+        width: 50%;
+        text-align: center;
+    }
+    .imo::after{
+     
+        left: 25%;
+    }
+    .h3{
+        background-color: red;
+        padding: 10px;
+    }
+}
+@media(max-width: 1030px){
+    .le{
+        font-size: 15px;
+    }
+
+    .vvs{
+        width: 100%;
+    }
+    .baxs{
+        width: 50%;
+        color: rgb(8, 8, 8);
+        
+    }
+    
+}
+@media(max-width: 1010px){
+    .hal{
+        width: 100%;
+    }
+    .box_b_text{
+        font-size: 30px;
+        width: 50%;
+    }
+    .box__clas{
+        width: 100%;
+        text-align: center;
+    }
+    .bor_b, .bor_c, .bor_title{
+        font-size: 11px;
+        align-items: center;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+    .le{
+        margin-left: 0;
+    }
+    .hair{
+        text-align: center;
+        
+    }
+    .styl{
+        display: flex;
+        flex-wrap: wrap;
+        text-shadow: 4px 2px grey;
+        font-size: 25px;
+    }
+}
+@media(max-width: 891px){
+    .bor_text{
+        font-size: 15px;
+    }
+    .bor_a{
+        justify-content: space-evenly;
+        
+        
+    }
+    .imo{
+        width: 100%;
+  
+    }
+    .box_d{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .boxes1{
+        width: 100%;
+    }
+    .boxes{
+        width: 100%;
+    }
+    .cosmo{
+        border: 4px solid #5FB3BD;
+        box-shadow: 4px 4px grey;
+        opacity: 1;
+    }
+    .imo::after{
+        content: "";
+
+    }
+    .ox{
+        font-size: 13px;
+        font-weight: bold;
+        word-spacing: 3px;
+    }
+}
+@media(max-width: 721px){
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .stelno{
+        font-size: 13px;
+    }
+    .bor{
+        width: 100%;
+        justify-content: center;
+        
+        
+    }
+    .bor_b_c{
+        width: 100%;
+    }
+    .bor_b, .bor_c, .bor_title{
+        font-size: 13px;
+    }
+    .bor_text{
+        font-size: 19px;
+    }
+    .ox{
+        width: 100%;
+        font-size: 15px;
+    }
+    .oxes{
+        width: 100%;
+    }
+    .img12{
+        margin: 0;
+    }
+    .oxes{
+        order: -1;
+    }
+}
+@media(max-width: 682px){
+    .li{
+        width: 50%;
+        color: red;
+        margin: 0;
+        text-align: center;
+       
+    }
+    .box_b_text{
+        font-size: 20px;
+    }
+    .le{
+        width: 250px;
+    }
+}
+@media(max-width: 510px){
+    .box_b_text{
+        font-size: 15px;
+    }
+    .styl{
+        margin-top: 40px;
+    }
+    .box_b{
+        font-size: 14px;
+    }
+    .stelno{
+        font-size: 13px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    .baxs{
+        width: 100%;
+        
+    }
+    .box_d{
+        font-size: 13px;
+    }
+    .pop{
+        font-size: 12px;
+    }
+    .fond{
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+}
+@media(max-width: 390px){
+    .le{
+        font-size: 10px;
+       
+    }
+    .bob{
+        margin: 10px;
+        height: 350px;
+    }
+    .box_d{
+        margin: 20px;
+    }
+    .box_a_a{
+        font-size: 25px;
+        width: 100%;
+        height: 60px;
+    }
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .box__b{
+        margin: 25px;
+        font-size: 13px;
+    }
+    .bor_b, .bor_c, .bor_title{
+        font-size: 10px;
+    }
+    .popp, .fond{
+        font-size: 12px;
+    }
+}
